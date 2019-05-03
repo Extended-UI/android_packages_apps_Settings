@@ -148,6 +148,7 @@ import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.exui.config.center.ConfigCenter;
+import com.android.settings.livedisplay.LiveDisplaySettings;
 
 public class SettingsGateway {
 
@@ -284,7 +285,8 @@ public class SettingsGateway {
             BatterySaverScheduleSettings.class.getName(),
             MobileNetworkListFragment.class.getName(),
             GlobalActionsPanelSettings.class.getName(),
-            ConfigCenter.class.getName()
+            ConfigCenter.class.getName(),
+            LiveDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
